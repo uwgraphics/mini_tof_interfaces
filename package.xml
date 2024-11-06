@@ -3,9 +3,9 @@
 <package format="3">
   <name>mini_tof_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="cpsiff@gmail.com">carter</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Message definitions for the mini_tof package.</description>
+  <maintainer email="sifferman@wisc.edu">Carter Sifferman</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
