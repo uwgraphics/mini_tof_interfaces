@@ -5,9 +5,6 @@ int64 measurement_num
 int64 temperature
 int64 num_valid_results
 int64 tick
-int64[] depths_1
-int64[] confs_1
-int64[] depths_2
-int64[] confs_2
+DepthEstimate[] depth_estimates
 string histogram_type
-string port
+string serial_port
