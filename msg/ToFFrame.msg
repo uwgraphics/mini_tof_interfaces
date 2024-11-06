@@ -1,7 +1,5 @@
-int64 num_zones
-int64 num_bins
-int64[] reference_hist
-int64[] hists
+ToFHistogram reference_histogram
+ToFHistogram[] histograms
 int64 i2c_address
 int64 measurement_num
 int64 temperature

@@ -9,8 +9,12 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
+set(msg_files
+  "msg/ToFHistogram.msg" "msg/ToFFrame.msg"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/TMF882XMeasure.msg"
+  ${msg_files}
 )
 
 if(BUILD_TESTING)
