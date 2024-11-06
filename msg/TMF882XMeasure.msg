@@ -1,0 +1,15 @@
+int64 num_zones
+int64 num_bins
+int64[] reference_hist
+int64[] hists
+int64 i2c_address
+int64 measurement_num
+int64 temperature
+int64 num_valid_results
+int64 tick
+int64[] depths_1
+int64[] confs_1
+int64[] depths_2
+int64[] confs_2
+string histogram_type
+string port
