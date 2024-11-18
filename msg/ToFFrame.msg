@@ -6,5 +6,4 @@ int64 temperature
 int64 num_valid_results
 int64 tick
 DepthEstimate[] depth_estimates
-string histogram_type
 string serial_port
