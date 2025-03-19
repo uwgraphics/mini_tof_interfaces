@@ -7,3 +7,4 @@ int64 num_valid_results
 int64 tick
 DepthEstimate[] depth_estimates
 string serial_port
+string sensor_model
