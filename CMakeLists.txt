@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/ToFHistogram.msg" "msg/ToFFrame.msg" "msg/DepthEstimate.msg"
+  "msg/ToFHistogram.msg" "msg/ToFFrame.msg" "msg/DepthEstimate.msg" "msg/AmbientLight.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

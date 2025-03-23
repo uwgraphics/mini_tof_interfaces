@@ -6,5 +6,6 @@ int64 temperature
 int64 num_valid_results
 int64 tick
 DepthEstimate[] depth_estimates
+AmbientLight[] ambient_lights
 string serial_port
 string sensor_model

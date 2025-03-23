@@ -1,0 +1,1 @@
+float64[] ambient_lights
